@@ -25,7 +25,7 @@ extensions = [
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenStack Training Labs'
+project = u'OpenStack windows lab virtualbox'
 copyright = u'2013, OpenStack Foundation'
 
 

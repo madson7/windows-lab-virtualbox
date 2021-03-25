@@ -59,14 +59,9 @@ tenvironment
 .ropeproject/
 
 # Labs artifacts
-labs/osbash/autostart/
-labs/osbash/img/
-labs/osbash/log/
-labs/osbash/wbatch/
-labs/osbash/lib/vagrant-ssh-keys/
-labs/osbash/test_tmp/
-
-labs/autostart/
-labs/img/
-labs/log/
-labs/wbatch/
+osbash/autostart/
+osbash/img/
+osbash/log/
+osbash/wbatch/
+osbash/lib/vagrant-ssh-keys/
+osbash/test_tmp/
