@@ -62,6 +62,6 @@ tenvironment
 osbash/autostart/
 osbash/img/
 osbash/log/
-osbash/wbatch/
+osbash/wbatch/iface_config.bat
 osbash/lib/vagrant-ssh-keys/
 osbash/test_tmp/

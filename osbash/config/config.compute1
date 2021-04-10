@@ -24,8 +24,8 @@ SECOND_DISK_SIZE=1280
 #------------------------------------------------------------------------------
 # Controller node is running many services.
 # A default instance within compute uses 512 MB RAM. The install-guide
-# demands 2048 MB of RAM, but 1024 MB is enough for one CirrOS instance.
-VM_MEM=1024
+# demands 2048 MB of RAM, but 2048 MB is enough for one CirrOS instance.
+VM_MEM=2048
 
 # Override number of virtual CPUs (default is 1)
 # To edit uncomment the line below

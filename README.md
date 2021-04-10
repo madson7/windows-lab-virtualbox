@@ -1,5 +1,5 @@
 
-# Windows lab virtualbox
+# Windows lab virtualbox Openstack
 
 ## About
 
@@ -16,17 +16,15 @@ instructions on a regular basis.
 
 windows-lab-virtualbox is a project under OpenStack Documentation. For more information
 see the
-OpenStack wiki https://wiki.openstack.org/wiki/Documentation/windows-lab-virtualbox
+OpenStack wiki https://wiki.openstack.org/wiki/Documentation/training-labs
 
 * Free software: Apache license
-* Documentation:openstack-windows-lab-virtualbox https://docs.openstack.org/training_labs/
-* Source:openstack/windows-lab-virtualbox https://opendev.org/openstack/windows-lab-virtualbox
-* Bugs:openstack-windows-lab-virtualbox https://bugs.launchpad.net/labs
-* Release Notes:openstack-windows-lab-virtualbox https://docs.openstack.org/releasenotes/openstack-manuals/
+* Documentation: openstack-windows-lab-virtualbox https://docs.openstack.org/training_labs/
+* Source: openstack/windows-lab-virtualbox https://github.com/madson7/windows-lab-virtualbox.git
 
 ## Pre-requisite
 
-* Download and install VirtualBox https://www.virtualbox.org/wiki/Downloads.
+* Download and install VirtualBox https://www.virtualbox.org/wiki/Downloads
 
 VirtualBox is the default hypervisor used by windows-lab-virtualbox. Alternatively, you can use KVM (just set PROVIDER=kvm in labs/config/localrc).
 
@@ -39,11 +37,9 @@ we recommend using master.
 
 ## Run the scripts for Windows
 
-The easiest and recommended way to get everything you need besides
-VirtualBox is to download a zip file for Windows from the
-windows lab virtualbox page https://docs.openstack.org/training_labs/.
+The easiest and recommended way to get everything you need besides VirtualBox is to clone the Windows Lab virtualbox repository https://github.com/madson7/windows-lab-virtualbox.git
 
-The zip files include pre-generated Windows batch files.
+Include pre-generated Windows batch files.
 
 Creates the host-only networks used by the node VMs to communicate:
 
@@ -129,7 +125,7 @@ Now you can access the OpenStack services via CLI.
 ## Specs
 
 To review specifications, see Training-labs
-https://specs.openstack.org/openstack/docs-specs/specs/liberty/training-labs.html>
+https://specs.openstack.org/openstack/docs-specs/specs/liberty/training-labs.html
 
 ## Wiki
 
